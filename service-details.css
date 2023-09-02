@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-header-text {
+    background-color: #fafdff;
+    color: black;
+    text-align: center;
+    padding: 100px 0 50px;
+
+    /* margin-bottom: 100px; */
+}
+
+.about-header-text h1 {
+    margin-bottom: 30px;
+}
+
+.about-page-instractor {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about-page-instractor li {
+    color: rgb(105, 102, 102);
+}
+
+.about-page-instractor li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.about-page-instractor li a:hover {
+    color: #61B576;
+}
+
+/* Service details */
+#service-details {
+    margin: 120px 70px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    position: relative;
+}
+
+
+/* Personal loans */
+#personal-loan {
+    box-shadow: 0 0 70px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px 20px;
+    height: 25vh;
+    position: sticky;
+    top: 20px;
+}
+
+#personal-loan h3 {
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#personal-loan h3::after {
+    content: " ";
+    height: 2px;
+    width: 40px;
+    margin: 0 0 0 10px;
+    background-color: silver;
+    position: absolute;
+    top: 43px;
+}
+
+#personal-loan ul {
+    list-style-type: none;
+    position: relative;
+}
+
+#personal-loan ul li a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: .9em;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgb(77, 75, 75);
+    margin-left: 5px;
+}
+
+#personal-loan ul li::before {
+    content: " ";
+    height: 7px;
+    width: 7px;
+    background-color: #61B576;
+    margin-right: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: -10px;
+    top: 12px;
+}
+
+#personal-loan ul li:nth-child(2)::before {
+    content: " ";
+    height: 7px;
+    width: 7px;
+    background-color: #61B576;
+    margin-right: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: -10px;
+    top: 42px;
+}
+
+#personal-loan ul li:nth-child(3)::before {
+    content: " ";
+    height: 7px;
+    width: 7px;
+    background-color: #61B576;
+    margin-right: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: -10px;
+    top: 72px;
+}
+
+#personal-loan ul li:nth-child(4)::before {
+    content: " ";
+    height: 7px;
+    width: 7px;
+    background-color: #61B576;
+    margin-right: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: -10px;
+    top: 102px;
+}
+
+/* Personal loans text */
+
+#personal-loan-text {
+    padding: 20px 0;
+}
+
+.personal-loan-text-child-one h1 {
+    color: #233242;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0 0 20px 0;
+}
+
+.personal-loan-text-child-one p {
+    color: #888888;
+    font-size: 1.1rem;
+    margin: 0 0 30px 0;
+}
+
+.personal-loan-text-child-two {
+    margin: 0 0 30px 0;
+}
+
+.personal-loan-text-child-two h2 {
+    color: #233242;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin: 0 0 20px 0;
+}
+
+.personal-loan-text-child-two ul {
+    list-style: none;
+    color: #888888;
+    line-height: 30px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.personal-loan-text-child-two ul li {
+    margin-left: 5px;
+}
+
+.personal-loan-text-child-two ul li::after {
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: #61B576;
+    /* color: white;
+    text-align: center;
+    font-size: 5px; */
+    margin-right: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.personal-loan-text-child-two ul li:nth-child(2):after {
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: #61B576;
+    /* color: white;
+    text-align: center;
+    font-size: 5px; */
+    margin-right: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+}
+
+.personal-loan-text-child-two ul li:nth-child(3):after {
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: #61B576;
+    /* color: white;
+    text-align: center;
+    font-size: 5px; */
+    margin-right: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+}
+
+hr {
+    margin: 10px 0 30px;
+    color: gold;
+}
+
+.personal-loan-text-child-three h3 {
+    color: #233242;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0 0 20px 0;
+}
+
+.personal-loan-text-child-three iframe {
+    width: 100%;
+    height: 400px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+.personal-loan-text-child-four h4 {
+    color: #233242;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0 0 20px 0;
+}
+
+.personal-loan-text-child-four p {
+    color: #888888;
+    font-size: 1.1rem;
+    margin: 0 0 30px 0;
+}
+
+
+
+
+/* Mobile responsive */
+
+@media screen and (max-width: 600px) and (min-width: 200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .about-header-text {
+        background-color: #fafdff;
+        color: black;
+        text-align: center;
+        padding: 30px;
+    }
+
+    /* Service details */
+    #service-details {
+        margin: 100px 10px 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        position: unset;
+    }
+
+
+    /* Personal loans */
+    #personal-loan {
+        height: auto;
+        width: 100%;
+        position: unset;
+    }
+
+    /* Personal loans text */
+
+    #personal-loan-text {
+        padding: 0 10px;
+    }
+
+    .personal-loan-text-child-one h1 {
+        font-size: 1.5rem;
+    }
+
+    .personal-loan-text-child-one p {
+        font-size: 1rem;
+    }
+
+
+    .personal-loan-text-child-two h2 {
+        font-size: 1.4rem;
+    }
+
+    .personal-loan-text-child-two ul li::after {
+        height: 7px;
+        width: 7px;
+        top: 10px;
+    }
+
+    .personal-loan-text-child-two ul li:nth-child(2):after {
+        height: 7px;
+        width: 7px;
+        top: 70px;
+    }
+
+    .personal-loan-text-child-two ul li:nth-child(3):after {
+        height: 7px;
+        width: 7px;
+        top: 130px;
+    }
+
+    .personal-loan-text-child-three h3 {
+        font-size: 1.3rem;
+    }
+
+    .personal-loan-text-child-three iframe {
+        width: 100%;
+        height: 200px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .personal-loan-text-child-four h4 {
+        font-size: 1.2rem;
+    }
+
+    .personal-loan-text-child-four p {
+        color: #888888;
+        font-size: 1rem;
+        margin: 0 0 30px 0;
+    }
+
+
+
+
+
+
+
+}

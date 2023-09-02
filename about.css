@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-header-text {
+    background-color: #fafdff;
+    color: black;
+    text-align: center;
+    padding: 100px 0 50px;
+
+    /* margin-bottom: 100px; */
+}
+
+.about-header-text h1 {
+    margin-bottom: 30px;
+}
+
+.about-page-instractor {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about-page-instractor li {
+    color: rgb(105, 102, 102);
+}
+
+.about-page-instractor li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.about-page-instractor li a:hover {
+    color: #61B576;
+}
+
+#about-wallet {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* justify-content: space-between; */
+    place-items: center;
+    gap: 50px;
+}
+
+.about-wallet-text {
+    width: 100%;
+}
+
+.about-wallet-text h4 {
+    color: #1e993d;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about-wallet-text h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.about-wallet-text p {
+    font-size: 1.2em;
+    color: gray;
+}
+
+.about-wallet-image {
+    width: 100%;
+}
+
+.about-wallet-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#about-details-container {
+    background-color: #fcfafa;
+    padding: 150px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.who-we-are {
+    width: 50%;
+}
+
+.who-we-are h1 {
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.who-we-are p {
+    font-size: 1.3rem;
+    color: rgb(136, 128, 128);
+    margin-bottom: 20px;
+}
+
+.who-we-are span {
+    color: gray;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.what-we-offer {
+    width: 50%;
+}
+
+.what-we-offer h1 {
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.what-we-offer p {
+    font-size: 1.3rem;
+    color: rgb(136, 128, 128);
+    margin-bottom: 20px;
+}
+
+.what-we-offer ul {
+    list-style: none;
+}
+
+.what-we-offer ul li {
+    padding: 5px 0;
+    color: gray;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.what-we-offer ul li:before {
+    content: "\2605";
+    border-radius: 100%;
+    color: #fff;
+    background-color: #1e993d;
+    margin-right: 5px;
+}
+
+.discussion {
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.discussion-item {
+    text-align: center;
+    transition: .5s ease;
+}
+
+.discussion-item:hover{
+    border: 1px solid #16af3c;
+    padding: 20px;
+}
+.discussion-item i {
+    font-size: 2.3rem;
+    color: #16af3c;
+    margin-bottom: 20px;
+}
+
+.discussion-item h1 {
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.discussion-item p {
+    color: gray;
+    font-size: 1.1em;
+}
+
+#provide-value {
+    background-color: #fafdff;
+    padding: 100px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+#provide-value-item-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.provide-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 30px 0 rgba(0, 0, 0, 0.1), 0 10px 40px 0 rgba(0, 0, 0, 0.0);
+}
+
+.provide-item div {
+    background-color: #27b84b;
+    color: white;
+    padding: 20px;
+    font-weight: 900;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.provide-item h1 {
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.provide-item p {
+    color: gray;
+    font-size: 1.1em;
+}
+
+
+.provide-value-text h4 {
+    color: #1e993d;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.provide-value-text h1 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.provide-value-text p {
+    font-size: 1.1em;
+    color: gray;
+}
+
+.question-have {
+    text-align: center;
+}
+
+.question-have h4 {
+    color: #1e993d;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.question-have h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.question-have p {
+    color: gray;
+    margin-bottom: 50px;
+}
+
+#team {
+    width: 100%;
+    padding: 0 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.team-single-item {
+    transition: .3s;
+}
+
+.team-single-item-image {
+    position: relative;
+}
+
+.team-single-item-image img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.team-single-item-link {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    bottom: 5%;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+
+.team-single-item:hover .team-single-item-link {
+    visibility: visible;
+    opacity: 1;
+}
+
+.team-single-item-link a {
+    font-size: 1rem;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    transition: .3s;
+}
+
+.team-single-item-link a:hover {
+    color: #16af3c;
+}
+
+.team-single-item-text {
+    text-align: center;
+}
+
+.team-single-item-text h1 {
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.team-single-item-text p {
+    font-size: 1.1em;
+    color: gray;
+}
+
+
+
+/* Mobile responsive  */
+
+@media screen and (max-width: 600px) and (min-width: 200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .about-header-text {
+        background-color: #fafdff;
+        color: black;
+        text-align: center;
+        padding: 50px 0;
+
+        /* margin-bottom: 100px; */
+    }
+
+    /* About wallet */
+
+    #about-wallet {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        /* justify-content: space-between; */
+        place-items: center;
+        gap: 50px;
+    }
+
+    .about-wallet-text h4 {
+        font-weight: 800;
+    }
+
+    .about-wallet-text h1 {
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+
+    .about-wallet-text p {
+        font-size: 1rem;
+        color: gray;
+    }
+
+    .about-wallet-image {
+        width: 100%;
+    }
+
+    .about-wallet-image img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    /* About details container */
+    #about-details-container {
+        background-color: #f7fcff;
+        padding: 20px 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .who-we-are {
+        width: 100%;
+    }
+
+    .who-we-are h1 {
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    .who-we-are p {
+        font-size: 1.1rem;
+        color: rgb(136, 128, 128);
+        margin-bottom: 20px;
+    }
+
+    .who-we-are span {
+        color: gray;
+        font-size: .8rem;
+        font-weight: 300;
+    }
+
+    .what-we-offer {
+        width: 100%;
+    }
+
+    .what-we-offer h1 {
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    .what-we-offer p {
+        font-size: 1.1rem;
+        color: rgb(136, 128, 128);
+        margin-bottom: 20px;
+    }
+
+    .what-we-offer ul {
+        list-style: none;
+    }
+
+    .what-we-offer ul li {
+        padding: 5px 0;
+        color: gray;
+        font-size: .8rem;
+        font-weight: 500;
+    }
+
+    .what-we-offer ul li:before {
+        content: "\2605";
+        border-radius: 100%;
+        color: #fff;
+        background-color: #1e993d;
+        margin-right: 5px;
+    }
+
+    .discussion {
+        padding: 40px 20px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .discussion-item {
+        text-align: center;
+    }
+
+    .discussion-item i {
+        font-size: 2rem;
+        color: #16af3c;
+        margin-bottom: 20px;
+    }
+
+    .discussion-item h1 {
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+
+    .discussion-item p {
+        color: gray;
+        font-size: 1.1em;
+    }
+
+    /* Provide values */
+
+    #provide-value {
+        padding: 30px 10px;
+        grid-template-columns: 1fr;
+        place-items: unset;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+
+    #provide-value-item-parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+
+    /* Team  */
+
+    #team {
+        width: 100%;
+        padding: 0 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-bottom: 100px;
+    }
+
+}
